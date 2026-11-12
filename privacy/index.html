@@ -28,12 +28,13 @@
 
     <main class="doc">
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated 9 November 2026</p>
+      <p class="updated">Last updated 12 November 2026</p>
 
       <div class="callout">
-        <strong>In short:</strong> Tatami has no servers of its own. Your account, progress and preferences stay on your
-        iPhone and in your own iCloud. Purchases are handled by Apple and RevenueCat. We collect a few anonymous usage
-        events and crash reports to improve the app, which you can turn off. There are no ads and no tracking, and we
+        <strong>In short:</strong> Tatami has no servers of its own. Your progress and preferences stay on your iPhone
+        and in your own iCloud. Purchases are handled by Apple and RevenueCat. We collect a few usage events and crash
+        reports to improve the app, linked to your email address if you shared it when signing in, and you can turn this
+        off. There are no ads and no tracking, and we
         never sell your information.
       </div>
 
@@ -48,7 +49,8 @@
         sign in and only if you choose to share them, your name and email address (which may be a private relay address).
         You can also add a profile photo and change your name in the app.</p>
       <p>This is stored on your device and in your private iCloud storage, so it's there when you sign in on your other
-        devices. It is not sent to us or kept on any server we run.</p>
+        devices. Your name and photo are never sent to us. If you shared your real email address (rather than a private
+        relay address), it's linked to your usage analytics, described below.</p>
 
       <h3>Your learning</h3>
       <p>Your lesson progress, saved techniques, daily log-ins and streak, quiz results, chosen belt, settings and your
@@ -61,16 +63,23 @@
         have Tatami Unlimited. RevenueCat receives your Sign in with Apple identifier (or a random identifier if you're
         signed out), your purchase and subscription history, and basic technical information such as your device model,
         iOS and app version, country and IP address. RevenueCat processes this on our behalf to provide the service.</p>
+      <p>RevenueCat also sends PostHog (described below) a record of each purchase and subscription change, such as a
+        free trial starting, a renewal, a cancellation or an expiry, with the product, price and dates. It's linked to the
+        same identifier as your usage analytics, so we can see how Tatami Unlimited is doing. Because this is part of
+        handling purchases, the Share usage data switch doesn't turn it off.</p>
 
       <h3>Usage analytics and crash reports</h3>
       <p>To understand how Tatami is used and fix problems, the app sends a small number of events to
         <a href="https://posthog.com/privacy">PostHog</a>, our analytics provider: when you finish onboarding (with the
-        belt you chose, your answer to "How did you hear about Tatami?" and whether reminders are on), when you complete
-        a lesson (its belt and number of terms) and when you finish a practice quiz (its type, length and score). If the
-        app crashes or hits an error, a crash report is sent with technical details of what went wrong.</p>
+        belt you chose, your answer to "How did you hear about Tatami?", whether reminders are on and whether you have
+        Tatami Unlimited), when you change your belt, when you complete a lesson (its name, belt and number of terms, and
+        how many lessons you've finished), when you finish a practice quiz (its type, length and score) and when you
+        reach one of the free plan's limits (which one). If the app
+        crashes or hits an error, a crash report is sent with technical details of what went wrong.</p>
       <p>These come with a random identifier for your device, or your Sign in with Apple identifier if you're signed in,
-        and basic technical information such as your device model, iOS and app version, and country. They never include
-        your name, email address or photo. PostHog processes this on our behalf on servers in the European Union
+        and basic technical information such as your device model, iOS and app version, and country. If you're signed in
+        and shared your real email address with Tatami (not a private relay address), your email address is linked to
+        them too, so we can see who is using the app. They never include your name or photo. PostHog processes this on our behalf on servers in the European Union
         (Frankfurt, Germany).</p>
       <p>You can turn this off at any time in the app: <strong>Settings → Share usage data</strong>.</p>
 
